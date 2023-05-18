@@ -21,5 +21,6 @@ public class SmartWatchThread implements Runnable {
             }
         }
         System.out.println(Thread.currentThread().getName() + " = " + featureName + " : Completed the task");
+
     }
 }
